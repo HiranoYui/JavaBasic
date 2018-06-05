@@ -13,10 +13,14 @@ public class PTra02_06 {
 
 		System.out.println("x:" + x);
 		System.out.println("y:" + y);
+	    int i=y;
+	    y=x;
+	    x=i;
+		
 
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
-
+		
 
 		// ここから下は修正しないでください
 		System.out.println("x:" + x);	// 「x:50」が出力される
