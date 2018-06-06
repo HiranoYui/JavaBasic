@@ -24,6 +24,19 @@ public class PTra03_08 {
 		int num = scanner.nextInt();
 
 		int money = 1000;	// 所持金
+		
+		if(num==1) {
+			System.out.println(money-150);
+		}else if(num==2) {
+			System.out.println(money-160);
+		}else if(num==3) {
+			System.out.println(money-200);
+		
+			
+		
+		
+		
+		}
 
 		//---------------------ここから本題-----------------------
 		/*
